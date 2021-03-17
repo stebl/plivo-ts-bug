@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020", "dom"],
+    "removeComments": true,
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "build",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": false,
+    "allowJs": true,
+    "checkJs": false,
+    "baseUrl": "./",
+    "paths": {},
+    "typeRoots" : ["./node_modules/@types","./@types"]
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules/**/*", ".vscode/**/*", "build/**"]
+}
